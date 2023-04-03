@@ -1,0 +1,131 @@
+/* body{
+	display: grid;
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+} */
+
+.popular_related_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 25px;
+  width: 327px;
+}
+
+.popular_news_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 327px;
+  text-align: start;
+  row-gap: 25px;
+}
+
+.popular_news_text {
+  font-family: var(--font-verdana);
+  font-size: var(--font-20);
+  font-weight: 400;
+  color: var(--maroon);
+}
+
+.popular_news_link_container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: inherit;
+  padding: 0 15px;
+  row-gap: 15px;
+}
+
+.popular_news {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+  row-gap: 5px;
+}
+
+.popular_news_title_container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popular_news_number {
+  font-family: var(--font-consolas);
+  font-size: var(--font-20);
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.popular_news_title {
+  font-family: var(--font-verdana);
+  font-size: var(--font-15);
+  font-weight: 400;
+  color: var(--purple);
+}
+
+.popular_news_readed {
+  width: inherit;
+  padding: 0 38px;
+}
+
+.readed_times {
+  font-family: var(--font-consolas);
+  font-size: var(--font-15);
+  font-weight: 400;
+  color: var(--grey);
+}
+
+/* Related Line */
+.popular_related_line {
+  width: inherit;
+  border-top: 0.5px solid var(--grey);
+}
+
+/* Related Link */
+.related_link_container {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  row-gap: 15px;
+}
+
+.related_link_text {
+  font-family: var(--font-verdana);
+  font-size: var(--font-20);
+  font-weight: 400;
+  color: var(--maroon);
+}
+
+.link_container {
+  padding: 0 15px;
+  width: 176px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: inherit;
+  column-gap: 20px;
+}
+
+.hashtag_text {
+  font-family: var(--font-verdana);
+  font-size: var(--font-20);
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.link_text {
+  font-family: var(--font-verdana);
+  font-size: var(--font-15);
+  font-weight: 400;
+  color: var(--purple);
+}

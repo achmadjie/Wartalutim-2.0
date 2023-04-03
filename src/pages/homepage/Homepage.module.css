@@ -1,0 +1,29 @@
+.homepage_container{
+	display: flex;
+	flex-direction: column;
+	row-gap: 55px;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	margin-bottom: 55px;
+}
+
+.headlines_popular_container{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	column-gap: 79px;
+}
+
+.homepage_line{
+	border-top: 0.5px solid var(--grey);
+	width: 1300px;
+}
+
+.latest_news_posters{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	column-gap: 158px;
+}
