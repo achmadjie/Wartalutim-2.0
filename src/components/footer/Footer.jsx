@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiFillHome, AiFillInstagram } from "react-icons/ai";
 import { BsTelephoneFill, BsTwitter } from "react-icons/bs";
 import { MdPlace, MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -14,13 +15,15 @@ export default function Footer() {
         <div className={styles.contact_us_container}>
           <h4 className={styles.contact_us_title}>Kontak Kami</h4>
           <div className={styles.contact_us_details_container}>
-              <div className={styles.data_details}>
-                <MdPlace className={styles.contact_us_logo} />
+            <div className={styles.data_details}>
+              <MdPlace className={styles.contact_us_logo} />
+              <Link to="https://goo.gl/maps/ZGpSMRZta7x66kcT8">
                 <p className={styles.email_address_text}>
                   Jl. Soekarno-Hatta Puncak Indah, Malili, Kab. Luwu Timur,
                   Prov. Sulawesi Selatan
                 </p>
-              </div>
+              </Link>
+            </div>
             <div className={styles.contact_us_details}>
               <div className={styles.data_details}>
                 <BiMapPin className={styles.contact_us_logo} />
@@ -46,14 +49,18 @@ export default function Footer() {
         <div className={styles.contact_us_container}>
           <h4 className={styles.contact_us_title}>Menu</h4>
           <div className={styles.contact_us_details_container}>
-              <div className={styles.data_details}>
-                <AiFillHome className={styles.contact_us_logo} />
+            <div className={styles.data_details}>
+              <AiFillHome className={styles.contact_us_logo} />
+              <Link to="/home">
                 <p className={styles.email_address_text}>Beranda</p>
-              </div>
+              </Link>
+            </div>
             <div className={styles.contact_us_details}>
               <div className={styles.data_details}>
                 <FcAbout className={styles.contact_us_logo} />
-                <p className={styles.email_address_text}>Tentang Kami</p>
+                <Link to="/about">
+                  <p className={styles.email_address_text}>Tentang Kami</p>
+                </Link>
               </div>
             </div>
           </div>
@@ -61,24 +68,30 @@ export default function Footer() {
         <div className={styles.contact_us_container}>
           <h4 className={styles.contact_us_title}>Ikuti Kami</h4>
           <div className={styles.contact_us_details_container}>
-              <div className={styles.data_details}>
-                <FaFacebookF className={styles.contact_us_logo} />
+            <div className={styles.data_details}>
+              <FaFacebookF className={styles.contact_us_logo} />
+              <Link to="https://www.facebook.com/diskominfolutim">
                 <p className={styles.email_address_text}>
                   Dinas Kominfo SP Luwu Timur
                 </p>
-              </div>
+              </Link>
+            </div>
             <div className={styles.contact_us_details}>
               <div className={styles.data_details}>
                 <AiFillInstagram className={styles.contact_us_logo} />
-                <p className={styles.email_address_text}>
-                  dinas_kominfo_sp_luwu_timur
-                </p>
+                <Link to="https://www.instagram.com/dinas_kominfo_sp_luwu_timur/">
+                  <p className={styles.email_address_text}>
+                    dinas_kominfo_sp_luwu_timur
+                  </p>
+                </Link>
               </div>
             </div>
             <div className={styles.contact_us_details}>
               <div className={styles.data_details}>
                 <BsTwitter className={styles.contact_us_logo} />
-                <p className={styles.email_address_text}>@diskominfolutim</p>
+                <Link to="https://twitter.com/diskominfolutim">
+                  <p className={styles.email_address_text}>@diskominfolutim</p>
+                </Link>
               </div>
             </div>
           </div>

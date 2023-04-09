@@ -6,7 +6,6 @@
 	column-gap: 632px;
 	cursor: default;
 	width: 1300px;
-	
 }
 
 .welcome_text h2{
@@ -21,4 +20,20 @@
 	color: var(--grey);
 	font-size: var(--font-20);
 	font-weight: normal;
+}
+
+@media screen and (max-width: 990px){
+	.welcome_date_container{
+		column-gap: 0;
+		width: auto;
+		justify-content: space-between;
+	}
+
+	.welcome_text h2{
+		font-size: var(--font-13);
+	}
+
+	.date_text h2{
+		font-size: var(--font-13);
+	}
 }

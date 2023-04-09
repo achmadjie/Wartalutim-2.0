@@ -65,6 +65,7 @@
 	font-size: var(--font-15);
 	font-weight: 400;
 	color: var(--bluesky);
+	cursor: default;
 }
 
 .footer_line{

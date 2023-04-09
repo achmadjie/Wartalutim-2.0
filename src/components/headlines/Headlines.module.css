@@ -26,7 +26,14 @@
 	height: auto;
 	font-family: var(--font-verdana);
 	color: var(--purple);
-	font-size: var(--font-25);
+	font-size: var(--font-20);
+	font-weight: 600;
+	transition: 0.5s ease-out;
+}
+
+.headlines_title_single:hover{
+	color: var(--tosca);
+	cursor: pointer;
 }
 
 .headlines_desc_single{
@@ -37,7 +44,7 @@
 	font-family: var(--font-georgia);
 	color: var(--grey);
 	font-size: var(--font-15);
-	line-height: 1.2;
+	line-height: 1.4;
 	letter-spacing: 0.3px;
 }
 
@@ -87,7 +94,14 @@
 	height: auto;
 	font-family: var(--font-verdana);
 	color: var(--purple);
-	font-size: var(--font-17);
+	font-size: var(--font-16);
+	font-weight: 600;
+	transition: 0.5s ease-out;
+}
+
+.headlines_title_double:hover{
+	color: var(--tosca);
+	cursor: pointer;
 }
 
 .headlines_desc_double{
@@ -97,8 +111,8 @@
 	height: auto;
 	font-family: var(--font-georgia);
 	color: var(--grey);
-	font-size: var(--font-14);
-	line-height: 1.2;
+	font-size: var(--font-13);
+	line-height: 1.4;
 	letter-spacing: 0.3px;
 }
 

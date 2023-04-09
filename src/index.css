@@ -8,6 +8,7 @@
     --font-13: 13px;
     --font-15: 15px;
     --font-14: 14px;
+    --font-16: 16px;
     --font-17: 17px;
     --font-20: 20px;
     --font-25: 25px;
@@ -25,4 +26,8 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
