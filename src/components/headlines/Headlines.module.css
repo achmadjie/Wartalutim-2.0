@@ -122,3 +122,42 @@
 	font-size: var(--font-14);
 	text-transform: uppercase;
 }
+
+/* @media screen and (min-width: 991px) {
+	
+} */
+
+@media screen and (max-width: 990px) {
+	.headlines_single{
+		display: none;
+	}
+
+	.headlines_container{
+		column-gap: 20px;
+		justify-content: center;
+	}
+
+	.headlines_double_container{
+		width: 210px;
+		row-gap: 20px;
+	}
+
+	.headlines_img_double{
+		width: inherit;
+		height: 120px;
+	}
+
+	.headlines_title_double{
+		font-size: var(--font-14);
+		font-weight: 600;
+		transition: 0.2s;
+	}
+
+	.headlines_desc_double{
+		font-size: var(--font-11);
+	}
+
+	.headlines_type_text_double{
+		font-size: var(--font-12);
+	}
+}

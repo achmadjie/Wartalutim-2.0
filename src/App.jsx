@@ -5,8 +5,10 @@ import Home from "./pages/homepage/Homepage";
 import About from "./pages/about/About";
 import WelcomeDate from "./components/welcome-date/WelcomeDate";
 import Headlines from "./components/headlines/Headlines";
-import './App.css';
+import LatestNews from "./components/latest-news/LatestNews";
+import PopularRelated from "./components/popular-related/PopularRelated";
 
+import './App.css';
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
       }
 
       {
-        <Headlines />
+        <PopularRelated />
       }
 
       <Routes>
