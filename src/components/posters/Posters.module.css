@@ -1,11 +1,25 @@
-.posters_container{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	row-gap: 35px;
+.posters_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 35px;
+  width: fit-content;
 }
 
-.posters_img{
-	width: 308px;
-	height: auto;
+.posters_img {
+  width: 308px;
+  height: auto;
+}
+
+/* @media screen and (min-width: 991px) {
+} */
+
+@media screen and (max-width: 990px) {
+  .posters_container {
+    row-gap: 10px;
+  }
+
+  .posters_img {
+	width: 160px;
+  }
 }

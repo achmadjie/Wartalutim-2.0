@@ -3,7 +3,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: flex-start;
-	column-gap: 632px;
+	column-gap: 668px;
 	cursor: default;
 	width: 1300px;
 }
@@ -12,7 +12,7 @@
 	font-family: var(--font-verdana);
 	color: var(--purple);
 	font-size: var(--font-20);
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .date_text h2{
@@ -24,9 +24,9 @@
 
 @media screen and (max-width: 990px){
 	.welcome_date_container{
-		column-gap: 0;
+		column-gap: 126px;
 		width: auto;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 	}
 
 	.welcome_text h2{

@@ -22,7 +22,7 @@ export default function PopularRelated() {
             <div className={styles.popular_news_title_container}>
               <h4 className={styles.popular_news_number}>#2</h4>
               <h4 className={styles.popular_news_title}>
-                Program Beasiswa Kabupaten Luwu Timur Tahun 2021
+              Pengumuman Penerima Beasiswa Pendataan 2021 Kabupaten Luwu Timur
               </h4>
             </div>
             <div className={styles.popular_news_readed}>
@@ -33,7 +33,7 @@ export default function PopularRelated() {
             <div className={styles.popular_news_title_container}>
               <h4 className={styles.popular_news_number}>#3</h4>
               <h4 className={styles.popular_news_title}>
-                Program Beasiswa Kabupaten Luwu Timur Tahun 2020
+              Pengumuman Daftar Penerima Beasiswa Berprestasi dan Kurang Mampu Pemerintah Kabupaten Luwu Timur Lanjutan Tahun 2020
               </h4>
             </div>
             <div className={styles.popular_news_readed}>
@@ -44,7 +44,7 @@ export default function PopularRelated() {
             <div className={styles.popular_news_title_container}>
               <h4 className={styles.popular_news_number}>#4</h4>
               <h4 className={styles.popular_news_title}>
-                Program Beasiswa Kabupaten Luwu Timur Tahun 2019
+              Pengumuman Bantuan Pendidikan Kabupaten Luwu Timur Tahun 2020
               </h4>
             </div>
             <div className={styles.popular_news_readed}>
@@ -55,7 +55,7 @@ export default function PopularRelated() {
             <div className={styles.popular_news_title_container}>
               <h4 className={styles.popular_news_number}>#5</h4>
               <h4 className={styles.popular_news_title}>
-                Program Beasiswa Kabupaten Luwu Timur Tahun 2018
+              Tingkatkan Minat Baca Masyarakat, Dinas Perpustakaan Lutim Gelar Perpuskel
               </h4>
             </div>
             <div className={styles.popular_news_readed}>
