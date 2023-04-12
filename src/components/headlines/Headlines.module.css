@@ -142,11 +142,11 @@
 	.headlines_double{
 		justify-content: center;
 		/* align-items: center; */
-		width: 200px;
+		width: 160px;
 	}
 
 	.headlines_img_double{
-		width: 227px;
+		width: 100%;
 		height: auto;
 		object-fit: cover;
 	}

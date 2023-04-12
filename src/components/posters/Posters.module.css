@@ -20,11 +20,15 @@
 
 @media screen and (max-width: 990px) {
   .posters_container {
-    row-gap: 10px;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .posters_img_container {
-    width: 150px;
+    width: 160px;
   }
 
   /* .posters_img {

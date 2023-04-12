@@ -115,13 +115,13 @@
 	}
 	
 	.latest_news_img{
-		width: 170px;
+		width: 150px;
 		height: auto;
 		object-fit: cover;
 	}
 
 	.latest_news_desc{
-		width: 250px;
+		width: 200px;
 		row-gap: 10px;
 	}
 
@@ -131,16 +131,16 @@
 	}
 
 	.latest_news_date{
-		width: fit-content;
+		width: 175px;
 		row-gap: 5px;
 	}
 
 	.news_word, .news_date, .author_name{
-		font-size: var(--font-11);
+		font-size: var(--font-10);
 	}
 
 	.latest_news_line{
-		width: 198px;
+		width: 170px;
 	}
 
 	.author_container{

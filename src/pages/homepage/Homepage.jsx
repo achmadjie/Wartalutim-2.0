@@ -20,23 +20,23 @@ export default function Homepage() {
       <div className={styles.headlines_container_mobile}>
         <Headlines />
       </div>
-      <hr className={styles.homepage_line_mobile}/>
+      <hr className={styles.homepage_line_mobile} />
       <div className={styles.latest_news_container_mobile}>
         <LatestNews />
       </div>
-      <hr className={styles.homepage_line_mobile}/>
-      <div className={styles.popular_related_posters_container_mobile}>
+      <hr className={styles.homepage_line_mobile} />
+      <div className={styles.popular_related_container_mobile}>
         <PopularRelated />
+      </div>
+      <div className={styles.posters_mobile}>
         <Posters />
       </div>
-      <hr className={styles.homepage_line}/>
+      <hr className={styles.homepage_line} />
       <div className={styles.latest_news_posters}>
         <LatestNews />
         <Posters />
       </div>
-      <div className={styles.homepage_container}>
-
-      </div>
+      <div className={styles.homepage_container}></div>
       {/* <Footer /> */}
     </div>
   );

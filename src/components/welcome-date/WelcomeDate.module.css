@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 1200px){
 	.welcome_date_container{
-		column-gap: 100px;
+		column-gap: 20px;
 		/* width: auto; */
 		/* justify-content: space-between; */
 		/* padding: 0 15px; */

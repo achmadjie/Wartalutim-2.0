@@ -99,7 +99,7 @@
 	}
 	
 	.footer_data_container{
-		column-gap: 25px;
+		column-gap: 5px;
 	}
 	
 	.contact_us_container{
@@ -127,7 +127,7 @@
 	}
 	
 	.email_address_text{
-		width: 125px;
+		width: 90px;
 	}
 	
 	.menu_list, .zip_phone_text, .email_address_text{
