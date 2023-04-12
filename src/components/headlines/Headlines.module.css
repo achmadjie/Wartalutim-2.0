@@ -2,7 +2,10 @@
 .headlines_container{
 	display: flex;
 	flex-direction: row;
-	column-gap: 30px;
+	/* justify-content: space-evenly; */
+	width: fit-content;
+	column-gap: 45px;
+
 }
 
 .headlines_single{
@@ -15,8 +18,8 @@
 }
 
 .headlines_img_single{
-	width: inherit;
-	height: 374px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .headlines_title_single{
@@ -83,8 +86,8 @@
 }
 
 .headlines_img_double{
-	width: inherit;
-	height: 136px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .headlines_title_double{

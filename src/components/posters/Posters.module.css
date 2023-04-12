@@ -6,9 +6,13 @@
   width: fit-content;
 }
 
+.posters_img_container{
+  width: 300px;
+}
+
 .posters_img {
-  width: 308px;
-  height: auto;
+  max-width: 100%;
+  height: 100%;
 }
 
 /* @media screen and (min-width: 991px) {

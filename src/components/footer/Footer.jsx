@@ -20,7 +20,9 @@ export default function Footer() {
               <HiLocationMarker className={styles.contact_us_logo} />
               <Link to="https://goo.gl/maps/ZGpSMRZta7x66kcT8">
                 <p className={styles.email_address_text}>
-                  Jl. Soekarno-Hatta Puncak Indah, Malili, Kab. Luwu Timur, Prov. Sulawesi Selatan
+                  Jl. Soekarno-Hatta Puncak Indah, Malili, 
+                  Kab. Luwu Timur, 
+                  Prov. Sulawesi Selatan
                 </p>
               </Link>
             </div>

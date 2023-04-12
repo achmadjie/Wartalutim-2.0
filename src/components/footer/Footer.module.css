@@ -5,16 +5,15 @@
 	padding: 35px 0;
 	row-gap: 30px;
 	background-color: var(--tosca);
-	width: auto;
+	width: 100%;
 	height: auto;
 }
 
 .footer_data_container{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	/* align-items: flex-start; */
-	column-gap: 200px;
 }
 
 .contact_us_container{
@@ -58,8 +57,8 @@
 	font-size: var(--font-15);
 	font-weight: 400;
 	color: var(--bluesky);
-	display: inline-block;
-	width: 300px;
+	display: flex;
+	width: 250px;
 }
 
 .menu_list{
@@ -97,7 +96,6 @@
 	.footer_container{
 		padding: 30px 0;
 		row-gap: 25px;
-		width: auto;
 	}
 	
 	.footer_data_container{

@@ -12,24 +12,29 @@ export default function navbar() {
     <nav className={styles.navbar_container}>
       <div className={styles.mobile_menu}>
         <div className={styles.nav_search_logo}>
-          <FiMenu className={styles.mobile_menu_icon} />
-          <Link to="/home">
-            <img
-              className={styles.wartalutim_logo}
-              src={wartalutim_logo}
-              alt="Wartalutim-logo"
-            />
-          </Link>
-          <hr className={styles.vert_rule} />
-          <div className={styles.nav_menu}>
-            <ul className={styles.nav_list}>
-              <li className={styles.nav_item}>
-                <Link to="/home">Beranda</Link>
-              </li>
-              <li className={styles.nav_item}>
-                <Link to="/about">Tentang Kami</Link>
-              </li>
-            </ul>
+          <div className={styles.nav_left}>
+            <FiMenu className={styles.mobile_menu_icon} />
+            <Link to="/home">
+              <img
+                className={styles.wartalutim_logo}
+                src={wartalutim_logo}
+                alt="Wartalutim-logo"
+              />
+            </Link>
+            <hr className={styles.vert_rule} />
+            <div className={styles.nav_menu}>
+              <ul className={styles.nav_list}>
+                <li className={styles.nav_item}>
+                  <Link to="/home">Beranda</Link>
+                </li>
+                <li className={styles.nav_item}>
+                  <Link to="/about">Tentang Kami</Link>
+                </li>
+                <li className={styles.nav_item}>
+                  <Link to="/footer">Hubungi Kami</Link>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className={styles.search_bar_container}>
             <div className={styles.search_bar}>

@@ -2,11 +2,11 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: flex-start;
-	column-gap: 668px;
+	justify-content: space-between;
+	/* column-gap: 668px; */
 	cursor: default;
-	width: 1300px;
-	/* align-self: flex-start; */
+	width: 100%;
+	padding: 0 225px 0 100px;
 }
 
 .welcome_text h2{

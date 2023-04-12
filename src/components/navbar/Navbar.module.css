@@ -5,7 +5,12 @@
   row-gap: 2.188rem;
   margin: 30px 0 50px;
   flex-wrap: wrap;
-  width: auto;
+  width: 100%;
+}
+
+.nav_left{
+  display: flex;
+  align-items: center;
 }
 
 .wartalutim_logo {
@@ -18,8 +23,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  column-gap: 2.813rem;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -48,7 +52,8 @@
 .search_bar_container {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 15px;
+  /* margin-left: 10px; */
 }
 
 .search_bar {
@@ -56,8 +61,8 @@
   align-items: center;
   border: 0.063rem solid rgba(95, 24, 84, 0.5);
   border-radius: 20px;
-  width: 400px;
-  height: 34px;
+  width: 300px;
+  height: 40px;
   padding: 5px 10px;
   cursor: pointer;
 }
@@ -92,7 +97,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 15px;
+  row-gap: 30px;
+  width: 100%;
 }
 
 .menu_list {
@@ -119,8 +125,8 @@
 }
 
 .menu_line {
-  border-top: 2px solid var(--grey);
-  width: 1300px;
+  border-top: 4px solid var(--grey);
+  width: inherit;
 }
 
 @media screen and (min-width: 481px){
