@@ -11,7 +11,7 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <div className={styles.footer_container}>
+    <div id="footer" className={styles.footer_container}>
       <div className={styles.footer_data_container}>
         <div className={styles.contact_us_container}>
           <h4 className={styles.contact_us_title}>Kontak Kami</h4>
@@ -20,8 +20,7 @@ export default function Footer() {
               <HiLocationMarker className={styles.contact_us_logo} />
               <Link to="https://goo.gl/maps/ZGpSMRZta7x66kcT8">
                 <p className={styles.email_address_text}>
-                  Jl. Soekarno-Hatta Puncak Indah, Malili, 
-                  Kab. Luwu Timur, 
+                  Jl. Soekarno-Hatta Puncak Indah, Malili, Kab. Luwu Timur,
                   Prov. Sulawesi Selatan
                 </p>
               </Link>
@@ -42,8 +41,7 @@ export default function Footer() {
               <div className={styles.data_details}>
                 <MdEmail className={styles.contact_us_logo} />
                 <p className={styles.email_address_text}>
-                  kominfo@luwutimurkab
-                  .go.id
+                  kominfo@luwutimurkab .go.id
                 </p>
               </div>
             </div>
@@ -84,8 +82,7 @@ export default function Footer() {
                 <AiFillInstagram className={styles.contact_us_logo} />
                 <Link to="https://www.instagram.com/dinas_kominfo_sp_luwu_timur/">
                   <p className={styles.email_address_text}>
-                    dinas_kominfo_sp_
-                    luwu_timur
+                    dinas_kominfo_sp_ luwu_timur
                   </p>
                 </Link>
               </div>

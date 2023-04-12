@@ -31,7 +31,7 @@ export default function navbar() {
                   <Link to="/about">Tentang Kami</Link>
                 </li>
                 <li className={styles.nav_item}>
-                  <Link to="/footer">Hubungi Kami</Link>
+                  <a href="#footer">Hubungi Kami</a>
                 </li>
               </ul>
             </div>

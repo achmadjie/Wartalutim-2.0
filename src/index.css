@@ -1,25 +1,25 @@
-  :root {
-    --grey: #999999;
-    --purple: #5F1854;
-    --tosca: #1ABB9C;
-    --maroon: #8B104E;
-    --bluesky: #E8F9FD;
-    --font-10: 10px;
-    --font-11: 11px;
-    --font-12: 12px;
-    --font-13: 13px;
-    --font-15: 15px;
-    --font-14: 14px;
-    --font-16: 16px;
-    --font-17: 17px;
-    --font-18: 18px;
-    --font-20: 20px;
-    --font-25: 25px;
-    --font-30: 30px;
-    --font-36: 36px;
-    --font-verdana: verdana;
-    --font-georgia: georgia;
-    --font-consolas: consolas;
+:root {
+  --grey: #999999;
+  --purple: #5f1854;
+  --tosca: #1abb9c;
+  --maroon: #8b104e;
+  --bluesky: #e8f9fd;
+  --font-10: 10px;
+  --font-11: 11px;
+  --font-12: 12px;
+  --font-13: 13px;
+  --font-15: 15px;
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-17: 17px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-25: 25px;
+  --font-30: 30px;
+  --font-36: 36px;
+  --font-verdana: verdana;
+  --font-georgia: georgia;
+  --font-consolas: consolas;
 }
 
 * {
@@ -37,11 +37,12 @@
   /* width: 100%; */
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
-html, body{
-  width: 100%;  
+html,
+body {
+  width: 100%;
   scroll-behavior: smooth;
 }
