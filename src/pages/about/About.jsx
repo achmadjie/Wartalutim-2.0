@@ -5,9 +5,9 @@ import styles from "./about.module.css";
 export default function About() {
   return (
     <div className={styles.about_container}>
-      <img src={logo_about} alt="about-logo" />
+      <img className={styles.about_logo} src={logo_about} alt="about-logo" />
       <div className={styles.about_desc_container}>
-        <h3 className={styles.about_text}>Tentang kami</h3>
+        <h3 className={styles.about_text}>Tentang Kami</h3>
         <p className={styles.about_desc_text}>
           Warta Lutim hadir sebagai media online yang bertujuan untuk memberikan
           informasi yang akurat, terpercaya, dan bermanfaat bagi masyarakat
