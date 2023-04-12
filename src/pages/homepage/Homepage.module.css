@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 481px){
-	.headlines_container_mobile, .latest_news_container_mobile, .homepage_line_mobile, .popular_related_container_mobile{
+	.headlines_container_mobile, .latest_news_container_mobile, .homepage_line_mobile, .popular_related_container_mobile, .posters_mobile{
 		display: none;
 	}
 }
