@@ -12,8 +12,8 @@ export default function navbar() {
     <nav className={styles.navbar_container}>
       <div className={styles.mobile_menu}>
         <div className={styles.nav_search_logo}>
+          <FiMenu className={styles.mobile_menu_icon} />
           <div className={styles.nav_left}>
-            <FiMenu className={styles.mobile_menu_icon} />
             <Link to="/home">
               <img
                 className={styles.wartalutim_logo}
