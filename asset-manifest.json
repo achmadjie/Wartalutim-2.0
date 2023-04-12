@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Wartalutim-2.0/static/css/main.18d93f25.css",
+    "main.js": "/Wartalutim-2.0/static/js/main.e47c9a08.js",
+    "static/js/787.811c8e27.chunk.js": "/Wartalutim-2.0/static/js/787.811c8e27.chunk.js",
+    "static/media/posters4.png": "/Wartalutim-2.0/static/media/posters4.2ff7e75a615a8dd711a1.png",
+    "static/media/posters2.png": "/Wartalutim-2.0/static/media/posters2.c808dd261be82e3f0542.png",
+    "static/media/posters1.png": "/Wartalutim-2.0/static/media/posters1.bb53cf708823fd97fae1.png",
+    "static/media/headlines1.png": "/Wartalutim-2.0/static/media/headlines1.1ff1609afbba53e9b250.png",
+    "static/media/headlines3.png": "/Wartalutim-2.0/static/media/headlines3.d45c316cf5775a33d8d7.png",
+    "static/media/latest1.png": "/Wartalutim-2.0/static/media/latest1.ff9e16deafa49f49c421.png",
+    "static/media/posters3.png": "/Wartalutim-2.0/static/media/posters3.28b323fbbfaf2ee5734d.png",
+    "static/media/headlines2.png": "/Wartalutim-2.0/static/media/headlines2.8b4e0d5033c55da9331b.png",
+    "static/media/logo_about.png": "/Wartalutim-2.0/static/media/logo_about.a080a8c52f202f115fcf.png",
+    "static/media/montserrat-all-400-normal.woff": "/Wartalutim-2.0/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
+    "static/media/logo.png": "/Wartalutim-2.0/static/media/logo.9ff0b26dcd87d1c03202.png",
+    "static/media/montserrat-latin-400-normal.woff2": "/Wartalutim-2.0/static/media/montserrat-latin-400-normal.acb6629fe45c43ad5d8b.woff2",
+    "static/media/montserrat-latin-ext-400-normal.woff2": "/Wartalutim-2.0/static/media/montserrat-latin-ext-400-normal.0204ec08a4b574088f02.woff2",
+    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/Wartalutim-2.0/static/media/montserrat-cyrillic-ext-400-normal.bbf9e820a2563aac0d8b.woff2",
+    "static/media/montserrat-cyrillic-400-normal.woff2": "/Wartalutim-2.0/static/media/montserrat-cyrillic-400-normal.e5c5c19c23e370a342c8.woff2",
+    "static/media/montserrat-vietnamese-400-normal.woff2": "/Wartalutim-2.0/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
+    "index.html": "/Wartalutim-2.0/index.html",
+    "main.18d93f25.css.map": "/Wartalutim-2.0/static/css/main.18d93f25.css.map",
+    "main.e47c9a08.js.map": "/Wartalutim-2.0/static/js/main.e47c9a08.js.map",
+    "787.811c8e27.chunk.js.map": "/Wartalutim-2.0/static/js/787.811c8e27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18d93f25.css",
+    "static/js/main.e47c9a08.js"
+  ]
+}
