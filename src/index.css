@@ -29,9 +29,16 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  /* display: flex; */
+  /* justify-content: center; */
   /* height: 100%; */
+  /* width: 100%; */
 }
 
 body::-webkit-scrollbar{
   display: none;
+}
+
+html, body{
+  width: 100%;
 }

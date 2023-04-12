@@ -6,6 +6,7 @@
 	column-gap: 668px;
 	cursor: default;
 	width: 1300px;
+	/* align-self: flex-start; */
 }
 
 .welcome_text h2{
