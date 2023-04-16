@@ -4,8 +4,6 @@ import Headlines from "../../components/headlines/Headlines";
 import PopularRelated from "../../components/popular-related/PopularRelated";
 import LatestNews from "../../components/latest-news/LatestNews";
 import Posters from "../../components/posters/Posters";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
 import styles from "./Homepage.module.css";
 
 export default function Homepage() {
@@ -28,6 +26,7 @@ export default function Homepage() {
       <div className={styles.popular_related_container_mobile}>
         <PopularRelated />
       </div>
+      <hr className={styles.homepage_line_mobile} />
       <div className={styles.posters_mobile}>
         <Posters />
       </div>

@@ -23,7 +23,7 @@
 	font-weight: normal;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 990px){
 	.welcome_date_container{
 		column-gap: 20px;
 		/* width: auto; */

@@ -5,6 +5,7 @@
   row-gap: 2.188rem;
   margin: 30px 0 50px;
   flex-wrap: wrap;
+  
   /* width: 100%; */
 }
 
@@ -135,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 990px) {
   .nav_menu, .search_bar, .vert_rule, .search_btn, .navbar_menu_container{
     display: none;
   }
@@ -168,8 +169,9 @@
   } */
 
   .wartalutim_logo{
-    height: 31px;
-    width: 150px;  
+    width: 160px;
+		height: auto;
+		object-fit: cover;
   }
 
   .add_menu_btn{
@@ -181,5 +183,6 @@
 
   .horiz_rule{
     border: 2px solid var(--grey);
+    width: 100%;
   }
 }

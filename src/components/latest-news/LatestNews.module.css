@@ -115,9 +115,10 @@
 	}
 	
 	.latest_news_img{
-		width: 150px;
+		width: 135px;
 		height: auto;
 		object-fit: cover;
+		border-radius: 10px;
 	}
 
 	.latest_news_desc{
