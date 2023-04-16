@@ -3,6 +3,7 @@ import headlines_img_1 from "../../assets/images/headlines1.png";
 import headlines_img_2 from "../../assets/images/headlines2.png";
 import headlines_img_3 from "../../assets/images/headlines3.png";
 import styles from "./Headlines.module.css";
+import { Link } from "react-router-dom";
 
 export default function Headlines() {
   return (
@@ -28,26 +29,29 @@ export default function Headlines() {
         </div>
       </div>
       <div className={styles.headlines_double_container}>
-        <div className={styles.headlines_double}>
-          <img
-            className={styles.headlines_img_double}
-            src={headlines_img_2}
-            alt="headlines-img-2"
-          />
-          <p className={styles.headlines_title_double}>
-            Bupati Budiman Resmikan Pondok Pesantren Nurhidayah Khaera Ummah
-            Burau
-          </p>
-          <p className={styles.headlines_desc_double}>
-            Bupati Luwu Timur, H. Budiman bersama Ketua TP PKK Luwu Timur, Hj.
-            Sufryati Budiman, menghadiri Wisuda Kahofmil Qur'an dan Peresmian
-            Pondok Pesantren
-          </p>
-          <div className={styles.headlines_type_container}>
-            <hr className={styles.headlines_rule} />
-            <p className={styles.headlines_type_text_double}>Pemerintahan</p>
+        <Link to={"/News"}>
+          <div className={styles.headlines_double}>
+            <img
+              className={styles.headlines_img_double}
+              src={headlines_img_2}
+              alt="headlines-img-2"
+            />
+            <p className={styles.headlines_title_double}>
+              Bupati Budiman Resmikan Pondok Pesantren Nurhidayah Khaera Ummah
+              Burau
+            </p>
+            <p className={styles.headlines_desc_double}>
+              Bupati Luwu Timur, H. Budiman bersama Ketua TP PKK Luwu Timur, Hj.
+              Sufryati Budiman, menghadiri Wisuda Kahofmil Qur'an dan Peresmian
+              Pondok Pesantren
+            </p>
+            <div className={styles.headlines_type_container}>
+              <hr className={styles.headlines_rule} />
+              <p className={styles.headlines_type_text_double}>Pemerintahan</p>
+            </div>
           </div>
-        </div>
+        </Link>
+
         <div className={styles.headlines_double}>
           <img
             className={styles.headlines_img_double}

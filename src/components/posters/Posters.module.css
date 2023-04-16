@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 990px) {
   .posters_container {
-    gap: 10px;
+    gap: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;

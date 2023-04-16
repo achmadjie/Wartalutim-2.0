@@ -1,12 +1,13 @@
 .footer_container{
 	display: flex;
 	flex-direction: column;
-	
 	padding: 35px 0;
 	row-gap: 30px;
 	background-color: var(--tosca);
 	width: 100%;
 	height: auto;
+	/* position: absolute; */
+  	/* bottom: 0; */
 }
 
 .footer_data_container{
@@ -101,7 +102,7 @@
 	}
 	
 	.footer_data_container{
-		column-gap: 10px;
+		column-gap: 25px;
 	}
 	
 	.contact_us_container{
