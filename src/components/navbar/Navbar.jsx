@@ -14,7 +14,7 @@ export default function navbar() {
         <div className={styles.nav_search_logo}>
           <FiMenu className={styles.mobile_menu_icon} />
           <div className={styles.nav_left}>
-            <Link to="/home">
+            <Link to="/">
               <img
                 className={styles.wartalutim_logo}
                 src={wartalutim_logo}
@@ -25,7 +25,7 @@ export default function navbar() {
             <div className={styles.nav_menu}>
               <ul className={styles.nav_list}>
                 <li className={styles.nav_item}>
-                  <Link to="/home">Beranda</Link>
+                  <Link to="/">Beranda</Link>
                 </li>
                 <li className={styles.nav_item}>
                   <Link to="/about">Tentang Kami</Link>
