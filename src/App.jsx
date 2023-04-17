@@ -12,23 +12,23 @@ function App() {
   return (
     <div className="App">
       {
-        // <Navbar />
+        <Navbar />
       }
 
       {
-        <MenuMobile />
+        // <MenuMobile />
       }
 
       <Routes>
-        {/* <Route index path = "/" element={<Home />} /> */}
-        {/* <Route path = "/home" element={<Home />} /> */}
-        {/* <Route path = "/about" element={<About />} /> */}
-        {/* <Route path = "/news" element={<News />} /> */}
-        {/* <Route path = "/menumobile" element={<MenuMobile />} /> */}
+        <Route index path = "/" element={<Home />} />
+        <Route path = "/home" element={<Home />} />
+        <Route path = "/about" element={<About />} />
+        <Route path = "/news" element={<News />} />
+        <Route path = "/menumobile" element={<MenuMobile />} />
       </Routes>
 
       {
-        // <Footer />
+        <Footer />
       }
     </div>
   );

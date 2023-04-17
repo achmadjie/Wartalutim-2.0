@@ -131,7 +131,7 @@
 }
 
 @media screen and (min-width: 480px){
-  .mobile_menu_icon, .horiz_rule{
+  .mobile_menu_icon, .horiz_rule, .nav_mobile_menu{
     display: none;
   }
 }
@@ -146,7 +146,7 @@
     row-gap: 0;
   }
 
-  .mobile_menu_icon, .horiz_rule{
+  .mobile_menu_icon, .horiz_rule, .nav_mobile_menu{
     display: inline;
   }
 
