@@ -7,9 +7,9 @@ export default function WelcomeDate() {
 		<div className={styles.welcome_text}>
 			<h2>Selamat Datang di Wartalutim</h2>
 		</div>
-		<div className={styles.date_text}>
+		{/* <div className={styles.date_text}>
 			<h2>Jumat, 31 Maret 2023</h2>
-		</div>
+		</div> */}
 	</div>
   )
 }

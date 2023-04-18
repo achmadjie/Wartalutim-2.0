@@ -1,11 +1,11 @@
 import React from "react";
-import { BiMapPin } from "react-icons/bi";
-import { FcAbout } from "react-icons/fc";
+import { TbPinFilled } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillHome, AiFillInstagram } from "react-icons/ai";
 import { BsTelephoneFill, BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { HiLocationMarker } from "react-icons/hi";
+import { BsInfoSquareFill } from "react-icons/bs"
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
             <div className={styles.contact_us_details_container}>
               <div className={styles.data_details}>
-                <BiMapPin className={styles.contact_us_logo} />
+                <TbPinFilled className={styles.contact_us_logo} />
                 <p className={styles.zip_phone_text}>92981</p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Footer() {
             </div>
             <div className={styles.contact_us_details_container}>
               <div className={styles.data_details}>
-                <FcAbout className={styles.contact_us_logo} />
+                <BsInfoSquareFill className={styles.contact_us_logo} />
                 <Link to="/about">
                   <p className={styles.menu_list}>Tentang Kami</p>
                 </Link>
@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className={styles.footer_line} />
-      <h6 className={styles.copyright_text}>Copyright. All rights reserved.</h6>
+      <h6 className={styles.copyright_text}>Copyright © 2023 by Andi Achmad Adjie.</h6>
     </div>
   );
 }

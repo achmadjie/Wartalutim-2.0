@@ -17,7 +17,7 @@ export default function News() {
             <p className={styles.author_dash_name}>-</p>
             <p className={styles.web_name}>Wartalutim</p>
           </div>
-          <p className={styles.date_time_text}>13/03/2023, 18:51 WITA</p>
+          <p className={styles.date_time_text}>19/04/2023, 11:30 WITA</p>
         </div>
         <img
           className={styles.news_images}
@@ -28,7 +28,7 @@ export default function News() {
           <span className={styles.regency_name}>Luwu Timur -</span>{" "}
           <span className={styles.first_word}>
             Bupati Luwu Timur, H. Budiman
-          </span>{" "}
+          </span>
           meminta jangan ada masalah dalam menyalurkan bantuan sosial ke
           masyarakat. Permintaan tersebut ia sampaikan saat melaunching
           sekaligus menyerahkan bantuan pangan tahun 2023, di Gudang Bulog

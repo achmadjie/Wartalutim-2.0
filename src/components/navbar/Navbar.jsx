@@ -1,18 +1,22 @@
-import React from "react";
+import { React } from "react";
 import { Link } from "react-router-dom";
 import wartalutim_logo from "../../assets/images/logo.png";
 import { BiSearch } from "react-icons/bi";
-import { AiOutlineDown } from "react-icons/ai";
-import { FiMenu } from "react-icons/fi";
+// import { AiOutlineDown } from "react-icons/ai";
+// import { FiMenu } from "react-icons/fi";
+import MenuMobile from "../menu-mobile/MenuMobile";
 import "@fontsource/montserrat";
 import styles from "./Navbar.module.css";
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <nav className={styles.navbar_container}>
-      <div className={styles.mobile_menu}>
+      {/* <div className={styles.mobile_menu}> */}
+      <div className={styles.menu_mobile_resp}>
+            <MenuMobile />
+          </div>
         <div className={styles.nav_search_logo}>
-          <FiMenu className={styles.mobile_menu_icon} />
+          {/* <FiMenu className={styles.mobile_menu_icon} /> */}
           <div className={styles.nav_left}>
             <Link to="/">
               <img
@@ -44,9 +48,10 @@ export default function navbar() {
             <button className={styles.add_menu_btn}>Tambahkan Menu</button>
           </div>
         </div>
-      </div>
+      {/* </div> */}
       <hr className={styles.horiz_rule} />
-      <nav className={styles.navbar_menu_container}>
+      <hr className={styles.menu_line} />
+      {/* <nav className={styles.navbar_menu_container}>
         <div className={styles.menu}>
           <ul className={styles.menu_list}>
             <li className={styles.menu_item}>Ekonomi</li>
@@ -61,8 +66,8 @@ export default function navbar() {
             </div>
           </ul>
         </div>
-        <hr className={styles.menu_line} />
-      </nav>
+        
+      </nav> */}
     </nav>
   );
 }

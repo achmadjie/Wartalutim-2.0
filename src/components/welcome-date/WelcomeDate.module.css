@@ -1,11 +1,11 @@
 .welcome_date_container{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	/* justify-content: space-between; */
 	column-gap: 800px;
 	cursor: default;
-	/* width: 100%; */
+	width: 87.5%;
 	/* padding: 0 100px 0 50px; */
 }
 
@@ -26,12 +26,12 @@
 @media screen and (max-width: 990px){
 	.welcome_date_container{
 		column-gap: 30px;	
-		/* width: auto; */
+		width: 350px;
 		/* justify-content: space-between; */
 		/* padding: 0 15px; */
 	}
 
 	.welcome_text h2, .date_text h2{
-		font-size: var(--font-13);
+		font-size: var(--font-14);
 	}
 }

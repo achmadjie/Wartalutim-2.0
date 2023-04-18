@@ -126,18 +126,18 @@
 }
 
 .menu_line {
-  border-top: 4px solid var(--grey);
+  border-top: 2px solid var(--grey);
   width: inherit;
 }
 
-@media screen and (min-width: 480px){
-  .mobile_menu_icon, .horiz_rule, .nav_mobile_menu{
+@media screen and (min-width: 991px){
+  .mobile_menu_icon, .horiz_rule, .nav_mobile_menu, .menu_mobile_resp{
     display: none;
   }
 }
 
 @media screen and (max-width: 990px) {
-  .nav_menu, .search_bar, .vert_rule, .search_btn, .navbar_menu_container{
+  .nav_menu, .search_bar, .vert_rule, .search_btn, .navbar_menu_container, .wartalutim_logo, .add_menu_btn, .menu_line{
     display: none;
   }
 
@@ -150,11 +150,19 @@
     display: inline;
   }
 
+  .menu_mobile_resp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
   .mobile_menu{
     display: flex;
     flex-direction: column;
     padding: 15px 0;
     width: auto;
+    justify-content: center;
   }
 
   .mobile_menu_icon{
@@ -167,17 +175,23 @@
     column-gap: 35px;
   }
 
-  .wartalutim_logo{
+  .wartalutim_logo_mobile{
     width: 160px;
 		height: auto;
 		object-fit: cover;
   }
 
-  .add_menu_btn{
+  .add_menu_btn_mobile{
     font-size: var(--font-10);
     width: auto;
     height: auto;
     padding: 7px 10px;
+    border-radius: 20px;
+    background-color: var(--tosca);
+    cursor: pointer;
+    font-family: var(--font-navbar);
+    font-weight: 600;
+    color: var(--bluesky);
   }
 
   .horiz_rule{

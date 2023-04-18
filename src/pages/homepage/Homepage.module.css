@@ -53,7 +53,7 @@
 
 	.homepage_line_mobile{
 		border-top: 0.5px solid var(--grey);
-		width: 327px;
+		width: 350px;
 	}
 
 	.headlines_container_mobile, .latest_news_container_mobile, .homepage_line_mobile, .popular_related_container_mobile{
