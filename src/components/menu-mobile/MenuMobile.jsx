@@ -13,7 +13,8 @@ export default function MenuMobile() {
   };
 
   return (
-    <div className={styles.menu_mobile_container} onClick={handleOpen}>
+    <div className={styles.menu_mobile_container}>
+      <div className={styles.burger_menu} onClick={handleOpen}>
       <Hamburger
         color={"var(--tosca)"}
         rounded
@@ -21,6 +22,7 @@ export default function MenuMobile() {
         toggled={isOpen}
         toggle={setOpen}
       />
+      </div>
       {isOpen ? (
         <>
           {/* <img className={styles.logo} src={logo} alt="wartalutim-logo" /> */}

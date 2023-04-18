@@ -140,9 +140,9 @@
 	}
 
 	.headlines_container{
-		column-gap: 25px;
-		justify-content: center;
-		align-items: flex-start;
+		column-gap: 19px;
+		/* justify-content: center;
+		align-items: flex-start; */
 	}
 
 	.headlines_double_container{
@@ -163,7 +163,7 @@
 	}
 
 	.headlines_title_double{
-		font-size: var(--font-14);
+		font-size: var(--font-13);
 		font-weight: 600;
 		transition: 0.2s;
 	}

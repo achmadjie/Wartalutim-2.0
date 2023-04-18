@@ -60,6 +60,12 @@
 		display: inline;
 	}
 
+	.headlines_container_mobile{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
 	.popular_related_container_mobile{
 		display: flex;
 		flex-direction: row;
