@@ -140,7 +140,9 @@
 	}
 
 	.headlines_container{
-		column-gap: 19px;
+		column-gap: 20px;
+		width: fit-content;
+		margin-right: 20px;
 		/* justify-content: center;
 		align-items: flex-start; */
 	}
