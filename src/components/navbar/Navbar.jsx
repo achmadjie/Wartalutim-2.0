@@ -2,7 +2,7 @@ import { React } from "react";
 import { Link } from "react-router-dom";
 import wartalutim_logo from "../../assets/images/logo.png";
 import { BiSearch } from "react-icons/bi";
-// import { AiOutlineDown } from "react-icons/ai";
+import { AiOutlineDown } from "react-icons/ai";
 // import { FiMenu } from "react-icons/fi";
 import MenuMobile from "../menu-mobile/MenuMobile";
 import "@fontsource/montserrat";
@@ -50,8 +50,7 @@ export default function Navbar() {
         </div>
       {/* </div> */}
       <hr className={styles.horiz_rule} />
-      <hr className={styles.menu_line} />
-      {/* <nav className={styles.navbar_menu_container}>
+      <nav className={styles.navbar_menu_container}>
         <div className={styles.menu}>
           <ul className={styles.menu_list}>
             <li className={styles.menu_item}>Ekonomi</li>
@@ -66,8 +65,8 @@ export default function Navbar() {
             </div>
           </ul>
         </div>
-        
-      </nav> */}
+        <hr className={styles.menu_line} />
+      </nav>
     </nav>
   );
 }
