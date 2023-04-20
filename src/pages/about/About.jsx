@@ -22,7 +22,7 @@ export default function About() {
               Kabupaten Luwu Timur yang menyediakan berita dan informasi terkini
               seputar kabupaten Luwu Timur. Melalui website ini, pengunjung
               dapat membaca berita-berita terbaru dari berbagai bidang seperti
-              politik, ekonomi, sosial, budaya, hingga olahraga.
+              politik, ekonomi, sosial, budaya, hingga pariwisata.
             </p>
           </div>
           <div className={styles.about_part}>
