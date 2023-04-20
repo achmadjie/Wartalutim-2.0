@@ -41,7 +41,7 @@ export default function About() {
         <div className={styles.about_part_double}>
           <div className={styles.about_part}>
             <GiEyeTarget className={styles.about_part_icon} />
-            <h3 className={styles.about_part_title}>Visi dan Misi</h3>
+            <h3 className={styles.about_part_title}>Visi-Misi</h3>
             <p className={styles.about_part_desc}>
               Visi dari website ini adalah menjadi sumber informasi terpercaya
               dan terdepan di kabupaten Luwu Timur, sementara misinya adalah
