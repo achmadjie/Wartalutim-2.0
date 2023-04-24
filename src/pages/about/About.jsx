@@ -1,8 +1,6 @@
 import React from "react";
 import { MdDescription } from "react-icons/md";
 import { GiStairsGoal, GiEyeTarget, GiCutDiamond } from "react-icons/gi";
-// import {  } from "react-icons/";
-// import {  } from "react-icons/";
 import styles from "./About.module.css";
 
 export default function About() {

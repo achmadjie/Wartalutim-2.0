@@ -76,11 +76,13 @@
 }
 
 .regency_name {
+  font-family: var(--font-georgia);
   font-weight: 700;
   font-size: var(--font-14);
 }
 
 .first_word {
+  font-family: var(--font-georgia);
   color: var(--tosca);
   font-size: var(--font-14);
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import news_image from "../../assets/images/news_image_1.jpg";
+import news_img_4 from "../../assets/images/new_headlines4.jpg";
 import PopularRelated from "../../components/popular-related/PopularRelated";
 import styles from "./News.module.css";
 
@@ -9,8 +9,8 @@ export default function News() {
       <div className={styles.news_container}>
         <div className={styles.news_title_author_container}>
           <h1 className={styles.news_title}>
-            Bupati Budiman Minta Jangan Ada Masalah Dalam Penyaluran Bantuan
-            Sosial
+            Budiman Serahkan Bantuan 10 Ton Pupuk NPK Kepada Lima Kelompok Tani
+            di Tiga Kecamatan
           </h1>
           <div className={styles.author_container}>
             <p className={styles.author_dash_name}>Admin Wartalutim</p>
@@ -21,15 +21,15 @@ export default function News() {
         </div>
         <img
           className={styles.news_images}
-          src={news_image}
+          src={news_img_4}
           alt="news-images-1"
         />
         <p className={styles.news_desc}>
-          <span className={styles.regency_name}>Luwu Timur -</span>{" "}
+          <span className={styles.regency_name}>Luwu Timur - </span>
           <span className={styles.first_word}>
             Bupati Luwu Timur, H. Budiman
           </span>
-          meminta jangan ada masalah dalam menyalurkan bantuan sosial ke
+          &nbsp;meminta jangan ada masalah dalam menyalurkan bantuan sosial ke
           masyarakat. Permintaan tersebut ia sampaikan saat melaunching
           sekaligus menyerahkan bantuan pangan tahun 2023, di Gudang Bulog
           Mangkutana, Sabtu (15/04/2023).

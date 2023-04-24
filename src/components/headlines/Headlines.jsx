@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function Headlines() {
   return (
     <div className={styles.headlines_container}>
-      <Link to={"/News"}>
+      <Link to={"/News1"}>
       <div className={styles.headlines_single}>
       
         <img
@@ -34,7 +34,7 @@ export default function Headlines() {
       </div>
       </Link>
       <div className={styles.headlines_double_container}>
-        <Link to={"/News"}>
+        <Link to={"/News2"}>
           <div className={styles.headlines_double}>
             <img
               className={styles.headlines_img_double}
@@ -56,7 +56,7 @@ export default function Headlines() {
             </div>
           </div>
         </Link>
-        <Link to={"/News"}>
+        <Link to={"/News3"}>
         <div className={styles.headlines_double}>
           <img
             className={styles.headlines_img_double}
@@ -80,7 +80,7 @@ export default function Headlines() {
         </Link>
       </div>
       <div className={styles.headlines_double_container}>
-      <Link to={"/News"}>
+      <Link to={"/News4"}>
         <div className={styles.headlines_double}>
           <img
             className={styles.headlines_img_double}
@@ -102,7 +102,7 @@ export default function Headlines() {
           </div>
         </div>
         </Link>
-        <Link to={"/News"}>
+        <Link to={"/News5"}>
         <div className={styles.headlines_double}>
           <img
             className={styles.headlines_img_double}

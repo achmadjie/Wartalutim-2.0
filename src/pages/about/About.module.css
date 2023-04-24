@@ -75,7 +75,7 @@
 }
 
 .about_part_desc {
-  font-family: Georgia;
+  /* font-family: Georgia; */
   font-size: var(--font-11);
   font-weight: 400;
   width: 100%;
